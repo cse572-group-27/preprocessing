@@ -1,8 +1,11 @@
 # Preprocessing helper code for Spotify Podcast Dataset
 
 ## json to transcript
-#TODO: add adjustable configuration in command line to this file
+
+
 ```python make_transcripts.py```
+
+#TODO: add adjustable configuration in command line to this file
 
 ## textile_segment
 Segment the txt file from transcript to segments using NLTK TextTiling
