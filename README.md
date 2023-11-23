@@ -3,7 +3,9 @@
 ## json to transcript
 
 
-```python make_transcripts.py```
+```
+python make_transcripts.py
+```
 
 #TODO: add adjustable configuration in command line to this file
 
