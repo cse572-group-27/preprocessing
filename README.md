@@ -1,5 +1,13 @@
 # Preprocessing helper code for Spotify Podcast Dataset
 
+## Uncompress tar.gz files from spotify
+Usage
+```
+unzip podcasts-no-audio-13GB.zip
+sudo chmod 777 uncompress.sh
+./uncompress.sh
+```
+
 ## json to transcript
 
 
