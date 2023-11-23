@@ -10,7 +10,7 @@ sudo chmod 777 uncompress.sh
 
 ## json to transcript
 
-
+Usage:
 ```
 python make_transcripts.py
 ```
@@ -18,7 +18,8 @@ python make_transcripts.py
 #TODO: add adjustable configuration in command line to this file
 
 ## textile_segment
-Segment the txt file from transcript to segments using NLTK TextTiling
+Segment the txt file from transcript to segments using NLTK TextTiling.
+
 Usage:
 ```
 python segment.py -ifp {FOLDER CONTAIN TRANSCRIPTS} -ofp {FOLDER TO SAVE SEGMENTS}
@@ -26,6 +27,7 @@ python segment.py -ifp {FOLDER CONTAIN TRANSCRIPTS} -ofp {FOLDER TO SAVE SEGMENT
 
 ## segment to prelabel
 Prelabel the segments to ad, non-ads label for segment-tool.
+
 Usage:
 ```
 python prelabel.py -ifp {FOLDER CONTAIN SEGMENTS} -ofp {FOLDER CONTAIN PRELABEL}
