@@ -18,6 +18,6 @@ python prelabel.py -ifp {FOLDER CONTAIN SEGMENTS} -ofp {FOLDER CONTAIN PRELABEL}
 ```
 If we want to output everything to one big csv file:
 ```
-python prelabel_csv.py -ifp {FOLDER CONTAIN SEGMENTS} -ofp {CSV FILE NAME (default to prelable.csv)}
+python prelabel_onecsv.py -ifp {FOLDER CONTAIN SEGMENTS} -ofp {CSV FILE NAME (default to prelable.csv)}
 ```
 
