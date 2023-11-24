@@ -17,7 +17,7 @@ for filename in os.listdir(input_folder):
     if filename.split(".")[-1] != "txt":
         continue
     input_path = os.path.join(input_folder,filename)
-    output_path = os.path.join(output_folder,"segment_"+filename)
+    output_path = os.path.join(output_folder,filename.replace("transcript","segment"))
     text = open(input_path,"r").read()
     text = text.replace(".",".\n\n") #make paragraphs
     tokens = tokenizer.tokenize(text)
