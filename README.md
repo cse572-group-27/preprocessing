@@ -12,10 +12,8 @@ sudo chmod 777 uncompress.sh
 
 Usage:
 ```
-python make_transcripts.py
+python make_transcripts.py -ifp {FOLDER CONTAIN JSON} -ofp {FOLDER TO OUTPUT TRANSCRIPTS}
 ```
-
-#TODO: add adjustable configuration in command line to this file
 
 ## textile_segment
 Segment the txt file from transcript to segments using NLTK TextTiling.
