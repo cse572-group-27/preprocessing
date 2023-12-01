@@ -23,5 +23,5 @@ for filename in os.listdir(input_folder):
     tokens = tokenizer.tokenize(text)
     with open(output_path,"w") as fw:
         for token in tokens:
-            paragraph = token.replace("\n"," ")
+            paragraph = token.replace("\n"," ").replace(",","")
             fw.write(paragraph+"\n")
